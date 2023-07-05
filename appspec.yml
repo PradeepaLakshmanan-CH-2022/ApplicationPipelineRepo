@@ -6,6 +6,6 @@ files:
 
 hooks:
   ApplicationStart:
-    - location: scripts\Applicationstart.ps1
+    - location: \Applicationstart.ps1
       timeout: 300
       runas: Administrator
