@@ -1,18 +1,18 @@
 # Stop the console application if it's already running
-# Set the application path
+$processName = "AWSCOnsole.dll"
+$runningProcesses = Get-Process -Name $processName -ErrorAction SilentlyContinue
+if ($runningProcesses) {
+    $runningProcesses | Stop-Process -Force
+}
 
-Get-Process -Name "AWSCOnsole" -ErrorAction SilentlyContinue | Stop-Process -Force
-
-# Specify the path to your console application executable
+# Specify the path to your console application DLL
 $consoleAppPath = "C:\Hello\AWSCOnsole.dll"
-
-
 
 # Specify the path for the output file
 $outputFilePath = "C:\outputfile\output.txt"
 
 # Run the console application and redirect the output to a file
-Start-Process -FilePath "dotnet" -ArgumentList "run", "--no-restore", "--no-build", "--project", $consoleAppPath, "--", ">", $outputFilePath -NoNewWindow -Wait
+Start-Process -FilePath "dotnet" -ArgumentList $consoleAppPath, ">", $outputFilePath -NoNewWindow -Wait
 
 # Read the output file and display its contents
 $outputContent = Get-Content -Path $outputFilePath -Raw
