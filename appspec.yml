@@ -1,7 +1,7 @@
 version: 0.0
 os: windows
 files:
-  -  source: \src\AWSCOnsole
+  -  source: \AWSCOnsole
      destination: C:\Hello
 
 hooks:
