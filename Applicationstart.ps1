@@ -1,7 +1,7 @@
 # Stop the console application if it's already running
 # Set the application path
 
-Get-Process -Name "AWSCOnsole.dll" -ErrorAction SilentlyContinue | Stop-Process -Force
+Get-Process -Name "AWSCOnsole" -ErrorAction SilentlyContinue | Stop-Process -Force
 
 # Specify the path to your console application executable
 $consoleAppPath = "C:\Hello\AWSCOnsole.dll"
