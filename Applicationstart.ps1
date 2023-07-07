@@ -16,6 +16,6 @@ Start-Process -FilePath "dotnet" -ArgumentList $consoleAppPath -NoNewWindow -Wai
     Out-File -FilePath $outputFilePath
 
 # Read the output file and display its contents
-$outputContent = Get-Content -Path $OutputFilePath -Raw
+$outputContent = Get-Content -Path $outputFilePath -Raw
 Write-Host "Console application output:"
 Write-Host $outputContent
