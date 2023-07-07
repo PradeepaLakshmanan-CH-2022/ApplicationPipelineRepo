@@ -12,7 +12,8 @@ $consoleAppPath = "C:\ConsoleApplication\AWSCOnsole.dll"
 $outputFilePath = "C:\outputfile\output.txt"
 
 # Run the console application and redirect the output to a file
-Start-Process -FilePath "dotnet" -ArgumentList $consoleAppPath, ">", $outputFilePath -NoNewWindow -Wait
+Start-Process -FilePath "dotnet" -ArgumentList $consoleAppPath -NoNewWindow -Wait |
+    Out-File -FilePath $outputFilePath
 
 # Read the output file and display its contents
 $outputContent = Get-Content -Path $outputFilePath -Raw
