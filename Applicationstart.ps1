@@ -1,20 +1,20 @@
-# Stop the console application if it's already running
+# Stop the console application
 $processName = "AWSCOnsole.dll"
 $runningProcesses = Get-Process -Name $processName -ErrorAction SilentlyContinue
 if ($runningProcesses) {
     $runningProcesses | Stop-Process -Force
 }
 
-# Specify the path to your console application DLL
+#  path for console application DLL
 $consoleAppPath = "C:\HelloWorldApp\AWSCOnsole.dll"
 
-# Specify the path for the output file
+#  path for the output file
 $outputFilePath = "C:\outputfile\output.txt"
 
-# Run the console application and capture the output
+# Run the console application 
 $output = & dotnet $consoleAppPath
 
-# Create the output string
+
 $outputContent = "Console application output:`n"
 $outputContent += $output
 $outputContent += "`n"
