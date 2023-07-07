@@ -9,11 +9,11 @@ if ($runningProcesses) {
 $consoleAppPath = "C:\ConsoleApplication\AWSCOnsole.dll"
 
 # Specify the path for the output file
-$outputFilePath = "C:\outputfile\output.txt"
+$outputDirectory = "C:\outputfile"
+$outputFilePath = Join-Path $outputDirectory "output_$(Get-Date -Format 'yyyyMMdd_HHmmss').txt"
 
-# Run the console application and redirect the output to a file
-Start-Process -FilePath "dotnet" -ArgumentList $consoleAppPath -NoNewWindow -Wait |
-    Out-File -FilePath $outputFilePath
+# Run the console application and redirect the output to the file
+Start-Process -FilePath "dotnet" -ArgumentList $consoleAppPath -NoNewWindow -Wait | Out-File -FilePath $outputFilePath
 
 # Read the output file and display its contents
 $outputContent = Get-Content -Path $outputFilePath -Raw
