@@ -10,7 +10,7 @@ namespace AWSCOnsole
     {
         public string GetName()
         {
-            string name = "Hello,Pipeline Successful";
+            string name = "Hello,Pipeline created Successful";
             Console.WriteLine(name); 
             return name;    
         }
