@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\AWSCOnsole\\AWSTest\\AWSTest.csproj": {}
+    "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ApplicationPipelineRepo\\AWSTest\\AWSTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\AWSCOnsole\\AWSCOnsole\\AWSCOnsole.csproj": {
+    "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ApplicationPipelineRepo\\AWSCOnsole\\AWSCOnsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\AWSCOnsole\\AWSCOnsole\\AWSCOnsole.csproj",
+        "projectUniqueName": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ApplicationPipelineRepo\\AWSCOnsole\\AWSCOnsole.csproj",
         "projectName": "AWSCOnsole",
-        "projectPath": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\AWSCOnsole\\AWSCOnsole\\AWSCOnsole.csproj",
+        "projectPath": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ApplicationPipelineRepo\\AWSCOnsole\\AWSCOnsole.csproj",
         "packagesPath": "C:\\Users\\Pradeepa.lakshmanan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\AWSCOnsole\\AWSCOnsole\\obj\\",
+        "outputPath": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ApplicationPipelineRepo\\AWSCOnsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pradeepa.lakshmanan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\AWSCOnsole\\AWSTest\\AWSTest.csproj": {
+    "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ApplicationPipelineRepo\\AWSTest\\AWSTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\AWSCOnsole\\AWSTest\\AWSTest.csproj",
+        "projectUniqueName": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ApplicationPipelineRepo\\AWSTest\\AWSTest.csproj",
         "projectName": "AWSTest",
-        "projectPath": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\AWSCOnsole\\AWSTest\\AWSTest.csproj",
+        "projectPath": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ApplicationPipelineRepo\\AWSTest\\AWSTest.csproj",
         "packagesPath": "C:\\Users\\Pradeepa.lakshmanan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\AWSCOnsole\\AWSTest\\obj\\",
+        "outputPath": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ApplicationPipelineRepo\\AWSTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pradeepa.lakshmanan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\AWSCOnsole\\AWSCOnsole\\AWSCOnsole.csproj": {
-                "projectPath": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\AWSCOnsole\\AWSCOnsole\\AWSCOnsole.csproj"
+              "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ApplicationPipelineRepo\\AWSCOnsole\\AWSCOnsole.csproj": {
+                "projectPath": "C:\\Users\\Pradeepa.lakshmanan\\source\\repos\\ApplicationPipelineRepo\\AWSCOnsole\\AWSCOnsole.csproj"
               }
             }
           }
